@@ -1,5 +1,5 @@
-#BattleSys - Battle System 
-###for battling forum game "²ÄN¦¸¾Ô°«¨t¦C"
+ï»¿#BattleSys - Battle System 
+###for battling forum game "ç¬¬Næ¬¡æˆ°é¬¥ç³»åˆ—"
 
 Output sample: http://hksan.net/forum/index.php?showtopic=12813
 
