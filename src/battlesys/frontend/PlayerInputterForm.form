@@ -1,0 +1,201 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="APP_NAME" type="code"/>
+    </Property>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[8, 8, 8, 8]"/>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[400, 400]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-116,0,0,1,121"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+    <Property name="columns" type="int" value="2"/>
+    <Property name="horizontalGap" type="int" value="8"/>
+    <Property name="rows" type="int" value="12"/>
+    <Property name="verticalGap" type="int" value="8"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x5269;&#x4e0b;&#x9ede;&#x6578;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="pointLeftLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="updatePointLeftLabel();">
+          <Connection code="&quot;jLabel10&quot;" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="componentAdded" listener="java.awt.event.ContainerListener" parameters="java.awt.event.ContainerEvent" handler="pointLeftLabelComponentAdded"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x6a94;&#x6848;&#x540d;&#x7a31;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fileNameText">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="&#x4e0d;&#x53ef;&#x4ee5;&#x4ee5;&#x6578;&#x5b57;&#x958b;&#x59cb;&#x3002;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x540d;&#x7a31;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameText">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="&#x5728;&#x6230;&#x9b25;&#x4e2d;&#x986f;&#x793a;&#x7684;&#x540d;&#x7a31;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x968a;&#x4f0d;&#x540d;&#x7a31;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="teamNameText">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="&#x5728;&#x6230;&#x9b25;&#x4e2d;&#x986f;&#x793a;&#x7684;&#x968a;&#x4f0d;&#x540d;&#x7a31;&#x3002;&#x64c1;&#x6709;&#x76f8;&#x540c;&#x968a;&#x4f0d;&#x540d;&#x7a31;&#x7684;&#x89d2;&#x6703;&#x88ab;&#x8996;&#x70ba;&#x65bc;&#x540c;&#x4e00;&#x500b;&#x968a;&#x4f0d;&#x3002;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x9ad4;&#x529b;&#x9ede;&#x6578;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="hpText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x7576;&#x5b83;&#x8dcc;&#x81f3;&#x96f6;&#x6642;&#x4f60;&#x5c31;&#x6557;&#x5317;&#x4e86;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="hpTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x653b;&#x64ca;&#x9ede;&#x6578;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="atkText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x6578;&#x503c;&#x6108;&#x9ad8;&#x4f60;&#x7684;&#x653b;&#x64ca;&#x5e36;&#x4f86;&#x7684;&#x50b7;&#x5bb3;&#x6108;&#x9ad8;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="atkTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x9632;&#x79a6;&#x9ede;&#x6578;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="defText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x6578;&#x503c;&#x6108;&#x9ad8;&#x6575;&#x8ecd;&#x5c0d;&#x4f60;&#x7684;&#x50b7;&#x5bb3;&#x6108;&#x5c11;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="defTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x901f;&#x5ea6;&#x9ede;&#x6578;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="spdText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x6578;&#x503c;&#x6108;&#x9ad8;&#x6108;&#x5bb9;&#x6613;&#x547d;&#x4e2d;&#x5c0d;&#x65b9;&#x53ca;&#x8ff4;&#x907f;&#x5c0d;&#x65b9;&#x653b;&#x64ca;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="spdTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x9b25;&#x5fd7;&#x9ede;&#x6578;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="morText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x6578;&#x503c;&#x6108;&#x9ad8;&#x6108;&#x5bb9;&#x6613;&#x66b4;&#x64ca;&#x53ca;&#x9632;&#x6b62;&#x5c0d;&#x65b9;&#x66b4;&#x64ca;&#xff0c;&#x4ee5;&#x53ca;&#x5f71;&#x97ff;&#x975e;&#x76f4;&#x63a5;&#x62db;&#x5f0f;&#x7684;&#x6210;&#x529f;&#x7387;&#x53ca;&#x6548;&#x679c; "/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="morTextFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x57fa;&#x672c;&#x62db;&#x5f0f;&#x4f7f;&#x7528;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="basicMoveUsage">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="&#x57fa;&#x672c;&#x653b;&#x64ca;"/>
+            <StringItem index="1" value="&#x7784;&#x6e96;&#x653b;&#x64ca;"/>
+            <StringItem index="2" value="&#x5f37;&#x529b;&#x653b;&#x64ca;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x62db;&#x5f0f;&#x8cfc;&#x5165;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="setMoveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x8a2d;&#x5b9a;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="setMoveButtonMousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="okButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x751f;&#x6210;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="okButtonMousePressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="exitButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x95dc;&#x9589;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="exitButtonMousePressed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
