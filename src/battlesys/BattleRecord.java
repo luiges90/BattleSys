@@ -165,9 +165,10 @@ public final class BattleRecord {
         }
         
         //read ftp username and password if not yet done.
-        if (ftpUser == null || ftpPass == null){
+        if (ftpUser == null || ftpPass == null || ftpHost == null){
             try {
                 BufferedReader r = new BufferedReader(new FileReader("ftp.txt"));
+                ftpHost = r.readLine();
                 ftpUser = r.readLine();
                 ftpPass = r.readLine();
                 r.close();
@@ -180,7 +181,7 @@ public final class BattleRecord {
         try {
             SimpleFTP ftp = new SimpleFTP();
 
-            ftp.connect("hksan.net", 21, ftpUser, ftpPass);
+            ftp.connect(ftpHost, 21, ftpUser, ftpPass);
 
             ftp.bin();
 
@@ -195,5 +196,5 @@ public final class BattleRecord {
 
         return getFilePath();
     }
-    private static String ftpUser, ftpPass;
+    private static String ftpUser, ftpPass, ftpHost;
 }
