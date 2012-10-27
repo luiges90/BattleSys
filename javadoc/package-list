@@ -1,0 +1,15 @@
+battlesys
+battlesys.analysis
+battlesys.exception
+battlesys.frontend
+battlesys.io
+battlesys.move.MoveChangeAbility
+battlesys.move.MoveChangeAbilityAttack
+battlesys.move.MoveNormal
+battlesys.move.MoveRandom
+battlesys.move.MoveSplitAbility
+battlesys.move.MoveStatus
+battlesys.move.MoveSwapAbility
+battlesys.move.MoveTransferStatus
+battlesys.playerCtrl23
+ec.util
