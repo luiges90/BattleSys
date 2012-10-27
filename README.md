@@ -16,14 +16,14 @@ TODO
 - To create Player Files, use PlayerInputterForm to create a sctatch. Additional features can be done by editing the created *.java file. Note that players bearing the same team name will be in the same team in tournaments.
 - To adjust Tournament settings, edit tournamentPoints.txt and read the description in it for instruction (current only in Chinese.)
 - To adjust Random Events settings, edit RandomEvents.csv and read the description in it for instruction (current only in Chinese.)
-- To start a battle and generate the results, run the _battle runner_ NthBattleForm.java. The result will be in RESULTS/<name>, where name is a concatination of battle round number and heat/final value (both can be set in tournamentPoints.txt)
+- To start a battle and generate the results, run the _battle runner_ NthBattleForm.java. The result will be in RESULTS/name, where name is a concatination of battle round number and heat/final value (both can be set in tournamentPoints.txt)
 - Advanced: You can edit the generated player files to do more things.
 - `the constructor` sets up its name `Player::setName(name)`, team name `Player::setTeamName(name)`, points `Player:giveHp/Atk/Def/Spd/MorPoint(point)` and moves `buyAtk(moveClassName)` it can use. Note that if this setting exceeds number of point allowed (as set in tournamentPoints.txt), the file will get rejected by the battle runner.
 - You may also use `setAtkName("MoveClassName", "aliasname")` and `setCritName("MoveClassName", "aliasname")` to set unique attack names.
 - `move` method instruct the player how to move. You can put actual java code here to make the player's movement more varied.
--- `useMove("MoveClassName", thisPlayers, opposingPlayers)` uses a move
--- You may want to use `getMoveTime("MoveClassName")` to check if there are any remaining moves it can use before actually using it.
--- You may also want to access each player's abilities or run anything on Players to do the decision. Read JavaDoc for details.
+  - `useMove("MoveClassName", thisPlayers, opposingPlayers)` uses a move
+  - You may want to use `getMoveTime("MoveClassName")` to check if there are any remaining moves it can use before actually using it.
+  - You may also want to access each player's abilities or run anything on Players to do the decision. Read JavaDoc for details.
 - Last but not least, you may want to override `preBattleSpeech, postBattleSpeech, deadSpeech` to make your player say something. To "say something" use `speak("message")`
 
 ## Credits
