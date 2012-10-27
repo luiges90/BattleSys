@@ -5,6 +5,7 @@ import battlesys.io.BattleSysLogger;
 import com.csvreader.CsvReader;
 import java.util.*;
 import java.util.logging.Level;
+import java.io.*;
 
 /**
  * random event related things, package private class
@@ -260,7 +261,7 @@ class RandomEvent {
     private static void loadRandomEvent() throws BadRandomEventFileException {
         CsvReader r;
         try {
-            r = new CsvReader("RandomEvents.csv");
+            r = new CsvReader(new InputStreamReader(new FileInputStream("RandomEvents.csv"), "UTF-8"));
         } catch (Exception ex) {
             throw new BadRandomEventFileException("RandomEvent.csv does not exist or cannot be loaded.", ex);
         }

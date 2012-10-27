@@ -177,3 +177,5 @@ moveTimeTaken.txt
 
 nbproject/private
 build/
+
+*.lck

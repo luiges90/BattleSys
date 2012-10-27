@@ -1443,6 +1443,7 @@ public abstract class Player {
 
                 RandomEventResult re;
                 re = RandomEvent.randomEvent(allPlayers);
+                result.append(re.getResultString());
 
                 result.append(t1.preRound(t1, t2));
                 result.append(t2.preRound(t2, t1));
