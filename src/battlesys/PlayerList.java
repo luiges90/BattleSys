@@ -170,7 +170,7 @@ public class PlayerList extends ArrayList<Player>{
         int v;
 
         for (Player p : this){
-            if (liveOnly && p.getHp() < 0){
+            if (liveOnly && p.getHp() <= 0){
                 continue;
             }
             if (quality.equalsIgnoreCase("HP")) {
