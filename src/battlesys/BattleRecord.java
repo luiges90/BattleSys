@@ -184,10 +184,10 @@ public final class BattleRecord {
             ftp.connect(ftpHost, 21, ftpUser, ftpPass);
 
             ftp.bin();
-
+            
             ftp.cwd("battleSysImage/results/" + Main.gametime + Main.hf);
 
-            ftp.stor(new File(filePath + ".png"));
+            ftp.stor(new File(baseFilePath, filePath + ".png"));
 
             ftp.disconnect();
         } catch (IOException ex) {

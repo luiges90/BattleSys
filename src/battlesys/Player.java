@@ -251,6 +251,7 @@ public abstract class Player {
         Collection<Move> moves = Move.getAllMoves();
         for (Move m : moves) {
             if (m.basic) {
+                m.owner = this;
                 boughtAtk.add(m);
             }
         }
@@ -752,6 +753,9 @@ public abstract class Player {
     protected final CompleteMoveResult useMove(String name, Player thisSideTarget, PlayerList thisSide, Player opposingSideTarget, PlayerList opposingSide) throws BattleSysException {
         Move m = Move.getMove(name);
         m.owner = this;
+        if (m.onOpposing && opposingSideTarget.inSameTeam(this)) {
+            throw new FriendlyFireException(this, opposingSideTarget);
+        }
         return m.useMove(m.onOpposing ? opposingSideTarget : thisSideTarget, thisSide, opposingSide);
     }
 
