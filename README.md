@@ -3,7 +3,10 @@
 
 Output sample: http://hksan.net/forum/index.php?showtopic=12813
 
-To enable image uploading feature, you need to set up FTP hosts, username and password. Copy and rename ftp_sample.txt to ftp.txt and place the details as in the file.
+To enable image uploading feature, you need to set up FTP hosts, username and password. Copy and rename ftp_sample.txt to ftp.txt and place the details as in the file. 
+
+
+Note that the host need to have `battleSysImage/results/<gametime><hf>` folder in order for image uploading feature to work correctly, where `<gametime>` is round time and `<hf>` is whether it is heat/final, both can be changed in `TournamentPoints.txt`
 
 Netbeans project is also included for ease of opening and compiling the project with Netbeans. If you get Netbeans complaining reference problems about "tools.jar", fix it by pointing it to simpleftp.jar.
 
