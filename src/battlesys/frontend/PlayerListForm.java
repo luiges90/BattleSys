@@ -92,7 +92,7 @@ public class PlayerListForm extends javax.swing.JFrame {
 
         setTitle(NthBattleForm.APP_NAME);
 
-        okButton.setText("確定");
+        okButton.setText("確定 OK");
         okButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 okButtonMousePressed(evt);
@@ -127,7 +127,7 @@ public class PlayerListForm extends javax.swing.JFrame {
         jScrollPane1.setViewportView(table);
         table.getColumnModel().getSelectionModel().setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
 
-        buttonDetailedInfo.setText("詳細資料");
+        buttonDetailedInfo.setText("詳細資料 Details");
         buttonDetailedInfo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 buttonDetailedInfoMousePressed(evt);
@@ -141,10 +141,10 @@ public class PlayerListForm extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 648, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 652, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(buttonDetailedInfo)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 510, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 458, Short.MAX_VALUE)
                         .addComponent(okButton)))
                 .addContainerGap())
         );

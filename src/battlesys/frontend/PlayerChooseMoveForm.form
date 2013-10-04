@@ -55,7 +55,7 @@
     </Container>
     <Component class="javax.swing.JButton" name="okButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x78ba;&#x5b9a;"/>
+        <Property name="text" type="java.lang.String" value="&#x78ba;&#x5b9a; OK"/>
       </Properties>
       <Events>
         <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="okButtonMousePressed"/>
@@ -68,7 +68,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="resetButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x91cd;&#x8a2d;"/>
+        <Property name="text" type="java.lang.String" value="&#x91cd;&#x8a2d; Reset"/>
       </Properties>
       <Events>
         <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="resetButtonMousePressed"/>
@@ -81,7 +81,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x9078;&#x64c7;&#x62db;&#x5f0f;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x9078;&#x64c7;&#x62db;&#x5f0f; Select Moves&#xff1a;"/>
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">

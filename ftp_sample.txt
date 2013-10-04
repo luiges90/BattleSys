@@ -1,1 +1,1 @@
-host.comusernamepassword
+example.comusernamepassword

@@ -102,7 +102,7 @@ public class NthBattleForm extends javax.swing.JFrame {
         setTitle(APP_NAME);
         getContentPane().setLayout(new java.awt.GridBagLayout());
 
-        jLabel1.setText("每組人數：");
+        jLabel1.setText("每組人數 Player per Group：");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
@@ -124,7 +124,7 @@ public class NthBattleForm extends javax.swing.JFrame {
         getContentPane().add(playerInGroupText, gridBagConstraints);
         getContentPane().add(jLabel3, new java.awt.GridBagConstraints());
 
-        vwe.setText("重玩次數：");
+        vwe.setText("重玩次數 Replay times：");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 3;
@@ -146,24 +146,30 @@ public class NthBattleForm extends javax.swing.JFrame {
         getContentPane().add(replayTimeText, gridBagConstraints);
 
         writeFileCheckbox.setSelected(true);
-        writeFileCheckbox.setText("生成所有結果　　");
+        writeFileCheckbox.setText("生成所有結果 Get all Results");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(writeFileCheckbox, gridBagConstraints);
 
-        makeImageCheckbox.setText("生成圖片　　　　");
+        makeImageCheckbox.setText("生成圖片 Create Images");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(makeImageCheckbox, gridBagConstraints);
 
-        rankingShowDataCheckbox.setText("於結果顯示玩家資料");
+        rankingShowDataCheckbox.setText("於結果顯示玩家資料 Show Player Details in Results");
         gridBagConstraints = new java.awt.GridBagConstraints();
-        gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 4;
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridwidth = 3;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.LINE_START;
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(rankingShowDataCheckbox, gridBagConstraints);
 
@@ -171,13 +177,13 @@ public class NthBattleForm extends javax.swing.JFrame {
         battleProgressBar.setStringPainted(true);
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 5;
+        gridBagConstraints.gridy = 7;
         gridBagConstraints.gridwidth = 3;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(battleProgressBar, gridBagConstraints);
 
-        showPlayerButton.setText("顯示玩家資料");
+        showPlayerButton.setText("顯示玩家資料 Show Player Details");
         showPlayerButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 showPlayerButtonMousePressed(evt);
@@ -185,12 +191,12 @@ public class NthBattleForm extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(showPlayerButton, gridBagConstraints);
 
-        startBattleButton.setText("進行比鬥");
+        startBattleButton.setText("進行比鬥 Combat");
         startBattleButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 startBattleButtonMousePressed(evt);
@@ -198,12 +204,12 @@ public class NthBattleForm extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(startBattleButton, gridBagConstraints);
 
-        endButton.setText("結束");
+        endButton.setText("結束 Close");
         endButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 endButtonMousePressed(evt);
@@ -211,12 +217,12 @@ public class NthBattleForm extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
-        gridBagConstraints.gridy = 6;
+        gridBagConstraints.gridy = 8;
         gridBagConstraints.fill = java.awt.GridBagConstraints.HORIZONTAL;
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(endButton, gridBagConstraints);
 
-        jLabel2.setText("回數：");
+        jLabel2.setText("回數 Rounds：");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
@@ -238,7 +244,7 @@ public class NthBattleForm extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(roundLabel, gridBagConstraints);
 
-        jLabel4.setText("每玩家點數：");
+        jLabel4.setText("每玩家點數 Pts per Player：");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;

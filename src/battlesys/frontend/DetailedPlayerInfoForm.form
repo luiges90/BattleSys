@@ -34,56 +34,56 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x89d2;&#x8272;&#x540d;&#x7a31;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x89d2;&#x8272;&#x540d;&#x7a31; Character Name&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelPlayerName">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x968a;&#x4f0d;&#x540d;&#x7a31;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x968a;&#x4f0d;&#x540d;&#x7a31; Team Name&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelTeamName">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x9ad4;&#x529b;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x9ad4;&#x529b; HP&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelHp">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x653b;&#x64ca;&#x529b;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x653b;&#x64ca;&#x529b; Atk&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelAtk">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x9632;&#x79a6;&#x529b;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x9632;&#x79a6;&#x529b; Def&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelDef">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x901f;&#x5ea6;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x901f;&#x5ea6; Spd&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelSpd">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel13">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x9b25;&#x5fd7;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x9b25;&#x5fd7; Mor&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelMor">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel17">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x4f7f;&#x7528;&#x7279;&#x6b8a;&#x62db;&#x5f0f;&#xff1a;"/>
+        <Property name="text" type="java.lang.String" value="&#x4f7f;&#x7528;&#x7279;&#x6b8a;&#x62db;&#x5f0f; Special Moves&#xff1a;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="labelOtherMoves">

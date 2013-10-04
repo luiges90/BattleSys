@@ -91,35 +91,35 @@ public class DetailedPlayerInfoForm extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(362, 361));
         getContentPane().setLayout(new java.awt.GridLayout(9, 2, 8, 8));
 
-        jLabel1.setText("角色名稱：");
+        jLabel1.setText("角色名稱 Character Name：");
         getContentPane().add(jLabel1);
         getContentPane().add(labelPlayerName);
 
-        jLabel3.setText("隊伍名稱：");
+        jLabel3.setText("隊伍名稱 Team Name：");
         getContentPane().add(jLabel3);
         getContentPane().add(labelTeamName);
 
-        jLabel5.setText("體力：");
+        jLabel5.setText("體力 HP：");
         getContentPane().add(jLabel5);
         getContentPane().add(labelHp);
 
-        jLabel7.setText("攻擊力：");
+        jLabel7.setText("攻擊力 Atk：");
         getContentPane().add(jLabel7);
         getContentPane().add(labelAtk);
 
-        jLabel9.setText("防禦力：");
+        jLabel9.setText("防禦力 Def：");
         getContentPane().add(jLabel9);
         getContentPane().add(labelDef);
 
-        jLabel11.setText("速度：");
+        jLabel11.setText("速度 Spd：");
         getContentPane().add(jLabel11);
         getContentPane().add(labelSpd);
 
-        jLabel13.setText("鬥志：");
+        jLabel13.setText("鬥志 Mor：");
         getContentPane().add(jLabel13);
         getContentPane().add(labelMor);
 
-        jLabel17.setText("使用特殊招式：");
+        jLabel17.setText("使用特殊招式 Special Moves：");
         getContentPane().add(jLabel17);
         getContentPane().add(labelOtherMoves);
         getContentPane().add(dummy);

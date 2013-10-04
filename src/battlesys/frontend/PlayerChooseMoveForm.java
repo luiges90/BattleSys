@@ -122,7 +122,7 @@ public class PlayerChooseMoveForm extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(jScrollPane1, gridBagConstraints);
 
-        okButton.setText("確定");
+        okButton.setText("確定 OK");
         okButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 okButtonMousePressed(evt);
@@ -135,7 +135,7 @@ public class PlayerChooseMoveForm extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(okButton, gridBagConstraints);
 
-        resetButton.setText("重設");
+        resetButton.setText("重設 Reset");
         resetButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 resetButtonMousePressed(evt);
@@ -148,7 +148,7 @@ public class PlayerChooseMoveForm extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(4, 4, 4, 4);
         getContentPane().add(resetButton, gridBagConstraints);
 
-        jLabel1.setText("選擇招式：");
+        jLabel1.setText("選擇招式 Select Moves：");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 0;

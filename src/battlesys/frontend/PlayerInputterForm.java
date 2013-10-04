@@ -76,7 +76,7 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         setResizable(false);
         getContentPane().setLayout(new java.awt.GridLayout(12, 2, 8, 8));
 
-        jLabel9.setText("剩下點數");
+        jLabel9.setText("剩下點數 Remaining Points");
         getContentPane().add(jLabel9);
 
         pointLeftLabel.setText("jLabel10");
@@ -88,25 +88,25 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(pointLeftLabel);
 
-        jLabel8.setText("檔案名稱");
+        jLabel8.setText("檔案名稱 File Name");
         getContentPane().add(jLabel8);
 
         fileNameText.setToolTipText("不可以以數字開始。");
         getContentPane().add(fileNameText);
 
-        jLabel6.setText("名稱");
+        jLabel6.setText("名稱 Name");
         getContentPane().add(jLabel6);
 
         nameText.setToolTipText("在戰鬥中顯示的名稱");
         getContentPane().add(nameText);
 
-        jLabel7.setText("隊伍名稱");
+        jLabel7.setText("隊伍名稱 Team Name");
         getContentPane().add(jLabel7);
 
         teamNameText.setToolTipText("在戰鬥中顯示的隊伍名稱。擁有相同隊伍名稱的角會被視為於同一個隊伍。");
         getContentPane().add(teamNameText);
 
-        jLabel1.setText("體力點數");
+        jLabel1.setText("體力點數 HP Points");
         getContentPane().add(jLabel1);
 
         hpText.setText("0");
@@ -118,7 +118,7 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(hpText);
 
-        jLabel2.setText("攻擊點數");
+        jLabel2.setText("攻擊點數 Atk Points");
         getContentPane().add(jLabel2);
 
         atkText.setText("0");
@@ -130,7 +130,7 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(atkText);
 
-        jLabel3.setText("防禦點數");
+        jLabel3.setText("防禦點數 Def Poins");
         getContentPane().add(jLabel3);
 
         defText.setText("0");
@@ -142,7 +142,7 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(defText);
 
-        jLabel4.setText("速度點數");
+        jLabel4.setText("速度點數 Spd Points");
         getContentPane().add(jLabel4);
 
         spdText.setText("0");
@@ -154,7 +154,7 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(spdText);
 
-        jLabel5.setText("鬥志點數");
+        jLabel5.setText("鬥志點數 Mor Points");
         getContentPane().add(jLabel5);
 
         morText.setText("0");
@@ -166,16 +166,16 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(morText);
 
-        jLabel10.setText("基本招式使用");
+        jLabel10.setText("基本招式使用 Basic Move");
         getContentPane().add(jLabel10);
 
         basicMoveUsage.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "基本攻擊", "瞄準攻擊", "強力攻擊" }));
         getContentPane().add(basicMoveUsage);
 
-        jLabel11.setText("招式購入");
+        jLabel11.setText("招式購入 Get Moves");
         getContentPane().add(jLabel11);
 
-        setMoveButton.setText("設定");
+        setMoveButton.setText("設定 Setup");
         setMoveButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 setMoveButtonMousePressed(evt);
@@ -183,7 +183,7 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(setMoveButton);
 
-        okButton.setText("生成");
+        okButton.setText("生成 Generate");
         okButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 okButtonMousePressed(evt);
@@ -191,7 +191,7 @@ public class PlayerInputterForm extends javax.swing.JFrame {
         });
         getContentPane().add(okButton);
 
-        exitButton.setText("關閉");
+        exitButton.setText("關閉 Close");
         exitButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mousePressed(java.awt.event.MouseEvent evt) {
                 exitButtonMousePressed(evt);

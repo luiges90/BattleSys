@@ -39,7 +39,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel9">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x5269;&#x4e0b;&#x9ede;&#x6578;"/>
+        <Property name="text" type="java.lang.String" value="&#x5269;&#x4e0b;&#x9ede;&#x6578; Remaining Points"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="pointLeftLabel">
@@ -54,7 +54,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x6a94;&#x6848;&#x540d;&#x7a31;"/>
+        <Property name="text" type="java.lang.String" value="&#x6a94;&#x6848;&#x540d;&#x7a31; File Name"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="fileNameText">
@@ -64,7 +64,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x540d;&#x7a31;"/>
+        <Property name="text" type="java.lang.String" value="&#x540d;&#x7a31; Name"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="nameText">
@@ -74,7 +74,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x968a;&#x4f0d;&#x540d;&#x7a31;"/>
+        <Property name="text" type="java.lang.String" value="&#x968a;&#x4f0d;&#x540d;&#x7a31; Team Name"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="teamNameText">
@@ -84,7 +84,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x9ad4;&#x529b;&#x9ede;&#x6578;"/>
+        <Property name="text" type="java.lang.String" value="&#x9ad4;&#x529b;&#x9ede;&#x6578; HP Points"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="hpText">
@@ -98,7 +98,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x653b;&#x64ca;&#x9ede;&#x6578;"/>
+        <Property name="text" type="java.lang.String" value="&#x653b;&#x64ca;&#x9ede;&#x6578; Atk Points"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="atkText">
@@ -112,7 +112,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x9632;&#x79a6;&#x9ede;&#x6578;"/>
+        <Property name="text" type="java.lang.String" value="&#x9632;&#x79a6;&#x9ede;&#x6578; Def Poins"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="defText">
@@ -126,7 +126,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x901f;&#x5ea6;&#x9ede;&#x6578;"/>
+        <Property name="text" type="java.lang.String" value="&#x901f;&#x5ea6;&#x9ede;&#x6578; Spd Points"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="spdText">
@@ -140,7 +140,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x9b25;&#x5fd7;&#x9ede;&#x6578;"/>
+        <Property name="text" type="java.lang.String" value="&#x9b25;&#x5fd7;&#x9ede;&#x6578; Mor Points"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="morText">
@@ -154,7 +154,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel10">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x57fa;&#x672c;&#x62db;&#x5f0f;&#x4f7f;&#x7528;"/>
+        <Property name="text" type="java.lang.String" value="&#x57fa;&#x672c;&#x62db;&#x5f0f;&#x4f7f;&#x7528; Basic Move"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JComboBox" name="basicMoveUsage">
@@ -170,12 +170,12 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x62db;&#x5f0f;&#x8cfc;&#x5165;"/>
+        <Property name="text" type="java.lang.String" value="&#x62db;&#x5f0f;&#x8cfc;&#x5165; Get Moves"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="setMoveButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x8a2d;&#x5b9a;"/>
+        <Property name="text" type="java.lang.String" value="&#x8a2d;&#x5b9a; Setup"/>
       </Properties>
       <Events>
         <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="setMoveButtonMousePressed"/>
@@ -183,7 +183,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="okButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x751f;&#x6210;"/>
+        <Property name="text" type="java.lang.String" value="&#x751f;&#x6210; Generate"/>
       </Properties>
       <Events>
         <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="okButtonMousePressed"/>
@@ -191,7 +191,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="exitButton">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#x95dc;&#x9589;"/>
+        <Property name="text" type="java.lang.String" value="&#x95dc;&#x9589; Close"/>
       </Properties>
       <Events>
         <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="exitButtonMousePressed"/>

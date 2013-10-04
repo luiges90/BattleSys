@@ -1,6 +1,6 @@
-//可分配點數
+//可分配點數 Points allowed for each player
 15
-//回數
+//回數 round number
 23
-//初賽(h)還是決賽(f)
+//初賽(h)還是決賽(f) Heat (h) or Final (f)
 h
